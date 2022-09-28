@@ -1,0 +1,196 @@
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Import Google Icon Font-->
+
+<!--    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+<!--    Import materialize.css-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>TicketToDo boilerplate</title>
+</head>
+
+<body>
+
+
+
+    <h5> POST VALUES </h5>
+    <h5> GET VALUES </h5>
+myLinkProject=true<br />    <h5> SESSION VALUES </h5>
+loggedin=1<br />name=userTest<br />id=2<br />projectID=57<br />activeProject=Admin1<br />PROJECT.php </br>adminTypeQuery = SELECT user_name, user_type
+FROM user 
+WHERE user_name = 'userTest'<br/><br/>possibleProjectNamesQuery = SELECT p.project_name
+FROM project AS p
+WHERE p.ID = 2
+<br/><br/>projectQuery = SELECT p.ID, p.project_name, u.ID
+FROM project AS p
+LEFT JOIN user2project ON p.ID = user2project.project_ID
+LEFT JOIN user AS u ON u.ID = user2project.user_ID
+WHERE u.ID = 2
+ORDER BY project_name ASC<br/><br/><nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">TicketToDo</a>
+    <div class="collapse navbar-collapse mb-3 mb-lg-0" id="navbar">
+
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="home.php">Home<span class="sr-only">(current)</span></a>
+            </li>
+            
+        
+        <li class='nav-item dropdown'>
+        <a href='#' class='nav-link dropdown-toggle mb-3' data-toggle='dropdown'>ADMIN <span
+                class='caret'></span>
+        </a>
+        <div class='dropdown-menu' style='z-index:999;'>
+            <a href='admin.php?adminCreateNewProject=true' class='dropdown-item'>Create New Project</a>
+            <a href='admin.php?adminDeleteExistingProject=true' class='dropdown-item'>Delete Existing Project</a>
+            <a href='admin.php?adminChangeProjectUsers=true' class='dropdown-item'>Change Project Users</a>
+            <a href='admin.php?adminChangeUserAdminStatus=true' class='dropdown-item'>Change User Admin Status</a>
+        </div>
+    </li>            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="createNewTicket.php">Create Ticket</a>
+            </li>
+            <!-- Drop Down Menu for advanced Search tab-->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle mb-3" data-toggle="dropdown">Advanced Search<span
+                        class="caret"></span>
+                </a>
+                <div class="dropdown-menu" style="z-index:999;">
+                    <a href="advSearch.php?myLinkStatus=true" class="dropdown-item">Status</a>
+                    <a href="advSearch.php?myLinkPriority=true" class="dropdown-item">Priority</a>
+                    <a href="advSearch.php?myLinkCategory=true" class="dropdown-item">Category</a>
+                    <a href="advSearch.php?myLinkIdNum=true" class="dropdown-item">ID Number</a>
+                    <!-- <a href="advSearch.php?myLinkProject=true" class="dropdown-item">Project </a> -->
+                    <a href="advSearch.php?myLinkDate=true" class="dropdown-item">Date</a>
+                    <a href="displayAdvSearch.php?remaining=true" class="dropdown-item">Remaining</a>
+                </div>
+            </li>
+            <!-- Drop Down Menu for project tab-->
+            <li class="nav-item dropdown">
+                <a href="project.php?" class="nav-link dropdown-toggle mb-3"
+                   data-toggle="dropdown">Project<span
+                            class="caret"></span>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="project.php?myLinkProject=true" class="dropdown-item">Start New Project</a>
+                    <a href='project.php?chosenDropdownProjectID=57&projectName=Admin1&Admin1=true' class='dropdown-item'> Admin1</a><a href='project.php?chosenDropdownProjectID=45&projectName=Apostrophe's&Apostrophe's=true' class='dropdown-item'> Apostrophe's</a><a href='project.php?chosenDropdownProjectID=35&projectName=CatTrial&CatTrial=true' class='dropdown-item'> CatTrial</a><a href='project.php?chosenDropdownProjectID=41&projectName=CatTrial&CatTrial=true' class='dropdown-item'> CatTrial</a><a href='project.php?chosenDropdownProjectID=43&projectName=Checkbox validation false&Checkbox validation false=true' class='dropdown-item'> Checkbox validation false</a><a href='project.php?chosenDropdownProjectID=39&projectName=Feed&Feed=true' class='dropdown-item'> Feed</a><a href='project.php?chosenDropdownProjectID=49&projectName=NewProject1&NewProject1=true' class='dropdown-item'> NewProject1</a><a href='project.php?chosenDropdownProjectID=50&projectName=NewProject2&NewProject2=true' class='dropdown-item'> NewProject2</a><a href='project.php?chosenDropdownProjectID=51&projectName=NewProject3&NewProject3=true' class='dropdown-item'> NewProject3</a><a href='project.php?chosenDropdownProjectID=52&projectName=NewProject4&NewProject4=true' class='dropdown-item'> NewProject4</a><a href='project.php?chosenDropdownProjectID=53&projectName=newProject5&newProject5=true' class='dropdown-item'> newProject5</a><a href='project.php?chosenDropdownProjectID=44&projectName=Pattis Final Test&Pattis Final Test=true' class='dropdown-item'> Pattis Final Test</a><a href='project.php?chosenDropdownProjectID=48&projectName=ProjectProject&ProjectProject=true' class='dropdown-item'> ProjectProject</a><a href='project.php?chosenDropdownProjectID=36&projectName=Scram&Scram=true' class='dropdown-item'> Scram</a><a href='project.php?chosenDropdownProjectID=37&projectName=Scram&Scram=true' class='dropdown-item'> Scram</a><a href='project.php?chosenDropdownProjectID=38&projectName=Scram&Scram=true' class='dropdown-item'> Scram</a><a href='project.php?chosenDropdownProjectID=40&projectName=Simple Test&Simple Test=true' class='dropdown-item'> Simple Test</a><a href='project.php?chosenDropdownProjectID=54&projectName=testProject4&testProject4=true' class='dropdown-item'> testProject4</a><a href='project.php?chosenDropdownProjectID=55&projectName=testProject5&testProject5=true' class='dropdown-item'> testProject5</a><a href='project.php?chosenDropdownProjectID=56&projectName=testtesttesttest&testtesttesttest=true' class='dropdown-item'> testtesttesttest</a><a href='project.php?chosenDropdownProjectID=1&projectName=TicketToDo&TicketToDo=true' class='dropdown-item'> TicketToDo</a><a href='project.php?chosenDropdownProjectID=46&projectName=Tryin' again&Tryin' again=true' class='dropdown-item'> Tryin' again</a><a href='project.php?chosenDropdownProjectID=47&projectName=When Sess Updates occur&When Sess Updates occur=true' class='dropdown-item'> When Sess Updates occur</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
+            </li> &nbsp;
+            <li class="nav-item">
+                <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </li> &nbsp; &nbsp;
+        </ul>
+
+        <form action="displaySearch.php" method="post">
+            <input type="text" name="searchBox" id="search" placeholder="General Search...">
+        </form>
+    </div>
+</nav>
+<div class=" descriptionBar fixed-top">
+     Project: Admin1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       UserName: userTest&nbsp;&nbsp;&nbsp;</div>
+
+userListQuery = SELECT user_name, ID
+    FROM user
+    
+    <br/><br/>    <div class="container ">
+
+        <div class="row">
+            <div class="col">
+        
+                <div class="card mb-4">
+                    <div class="card-header"><h2>Add New Project </h2></div>
+                    <div class="card-body">
+                        
+                        <form action='#' method="post">
+                            <h4>Project Information:</h4>
+                            <div class="form-group">
+                               <label for="newProjectName">Project Name  </label> 
+                                <input type="text" class="form-control" name="newProjectName" id="newProjectName" placeholder="Project Name" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Description </label>
+                                <textarea class="form-control" id="description" name="description" placeholder="Description" ></textarea>
+                            </div>
+                            <h4>Select the Users that will have access to this project</h4>
+                                                        
+                            <div class='form-check'>
+                 <input class='form-check-input' type='checkbox' id='1' name='userList[]' value='1' > CoderBoss</br> 
+                <label class='form-check-label sr-only' for=1 >CoderBoss</label>
+                </div><br><div class='form-check'>
+                 <input class='form-check-input' type='checkbox' id='2' name='userList[]' value='2' > userTest</br> 
+                <label class='form-check-label sr-only' for=2 >userTest</label>
+                </div><br><div class='form-check'>
+                 <input class='form-check-input' type='checkbox' id='3' name='userList[]' value='3' > Usernametest</br> 
+                <label class='form-check-label sr-only' for=3 >Usernametest</label>
+                </div><br>
+                            <input type='submit' class='btn siteButton' value='Submit'>
+                            <input type='hidden' name='submit' value='true'>
+
+                        </form>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<!--<script-->
+<!--    src="https://code.jquery.com/jquery-3.5.1.js"-->
+<!--    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="-->
+<!--    crossorigin="anonymous"></script>-->
+<!--<script>$(document).ready(function(){-->
+<!--        $('.sidenav').sidenav();-->
+<!--    });</script>-->
+<!--<script>$(document).ready(function(){-->
+<!--$('select').formSelect();-->
+<!--});</script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<!--<script src="js/app.js"></script>-->
+<!--<script>-->
+<!--   M.AutoInit()-->
+<!--</script>-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+

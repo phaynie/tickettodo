@@ -1,0 +1,479 @@
+/*COLOR PALATE*/
+
+/*Table top and bottom color  lightgoldenrodyellow
+Error color: #cc0033
+.siteButton
+    color:white;
+    background-color:darkseagreen;
+.hint  teal
+table border   black
+th
+    background-color: blue;
+
+div.searchChoices
+    background-color:green;
+
+div.searchChoicesB
+    background-color:purple;
+
+/*WELCOME PAGE Board palatte*/
+
+/*#63576f blue-purple*/
+/*#906466 plumb*/
+/*#b7885e orange-ish*/
+/*#6e4158 purple dark*/
+/*#aca292 gray*/
+/*#bcd0d3 blue*/
+/*#a46640 orange-dark*/
+/*#debeaf pink*/
+/*#bfd4c1 lt blue*/
+/*#d580166 creamsicle*/
+/*#9c8d8e periwinkle*/
+/*#c16540 terraCotta*/
+/*#cd8466 lt terraCotta*/
+
+
+/*WELCOME PAGE marble palatte*/
+
+/*#554b43 Kabul*/
+/*#93918e natural Gray   Used for site button hover color*/
+/*#2f2c29 Dune*/
+/*#908575 Stonewall*/
+/*#aca292 Sandstone*/
+/*#7d796f Tapa  used on div inside of jumbotron*/
+/*#a46640 bitter*/
+/*#3c2c2c Woody Brown*/
+/*#3c2c24 English Walnut */
+
+
+
+
+
+*/
+/*Margin for top of project page*/
+.top_projdiv {
+    margin-top:200px;
+}
+
+
+/* Table styles*/
+
+/*To center a list (ul) inside a div (works for tables too), all elements (ul and li)(table) must have inline-block display and your list (table) must be inside a container (ours is a div with the class of table_div) with text-align: center. Also do not add any float to your list (table) elements.   I found that margins on the left-most table will push it to the right side if that is what is wanted. */
+
+/*Nav bar styles codepen*/
+/*:root{*/
+/*    --primary:#03A9F4;*/
+/*    --secondary:#29B6F6;*/
+/*    --terciary:#B2EBF2;*/
+/*}*/
+
+/*nav{*/
+/*    padding: 0 10px 0 10px;*/
+/*    background-color: var(--primary);*/
+/*}*/
+
+/*nav .right{*/
+/*    position: absolute;*/
+/*    top: 0px;*/
+/*    right: 0px;*/
+/*}*/
+
+/*.nav-wrapper form{*/
+/*    margin: auto;*/
+/*    width: 50%;*/
+/*}*/
+
+/*.nav-wrapper .input-field{*/
+/*    padding-top: 7px;*/
+/*}*/
+
+/*.nav-wrapper form #search{*/
+/*    height: 50px;*/
+/*}*/
+
+/*nav .right img{*/
+/*    margin: 17px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    border: 2px solid white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*nav .right .imgProfil a{*/
+/*    height: 64px;*/
+/*}*/
+
+/*.hidden{*/
+/*    display: none;*/
+/*}*/
+
+/*NAV BAR STYLES materializecss*/
+
+/*#topbarsearch .input-field .prefix {*/
+/*    width:0rem !important;*/
+/*}*/
+
+/*#topbarsearch nav ul li:hover, nav ul li.active {*/
+/*    background-color: none !important;*/
+/*}*/
+
+/*.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .autocomplete-content{*/
+/*    margin-left: 1rem !important;*/
+/*}*/
+
+/*.main {*/
+/*    width: 40%;*/
+/*}*/
+
+/*Trying to change the color of the Ticket priority. I can get all of them to be red when the arrow is clicked*/
+
+/*.priority, .category {*/
+/*    color: */
+/*}*/
+
+/*ul.dropdown-content.select-dropdown li span {*/
+/*    color: red; !* no need for !important :) *!*/
+/*}*/
+
+/*select,*/
+/*select option {*/
+/*    color: green;*/
+/*}*/
+
+/*select:invalid,*/
+/*select option[value=""] {*/
+/*    color: red;*/
+/*}*/
+
+/*label {*/
+/*    display: block;*/
+/*    margin: 16px 0;*/
+/*}*/
+
+/*!*Added for browser compatibility*!*/
+/*[hidden] {*/
+/*    display: none;*/
+/*}*/
+
+/*padding to the body so it won't hide behind the nav bar*/
+
+
+
+body {
+  margin-top: 100px;
+}
+
+.logoImage {
+    margin: auto;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.welcomeText {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.projIntro {
+    padding:80px;
+    margin-right:20px;
+}
+
+.sample {
+    padding-left: 30%;
+    padding-right: 30%px;
+}
+
+.bummer {
+  padding: 50px 200px;
+}
+
+.error {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.hint {
+  color: teal;
+}
+
+/*Here we are sizing the createNewTicket form Responsively*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main {
+    width: 90%;
+  }
+  
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main {
+    width: 75%;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main {
+    width: 65%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main {
+    width: 50%;
+  }
+}
+
+/*TABLE STYLES*/
+
+table {
+  /*width: 50%;*/
+  border: 1px solid black;
+}
+
+/*Not currently being accessed*/
+table.shrtData {
+  width: 50%;
+  display: inline-block;
+}
+
+table.center {
+  width: 50%;
+  display: inline-block;
+}
+
+table.opt {
+  margin-left: 30%;
+  margin-right: 2%;
+  width: 10%;
+  display: inline-block;
+}
+
+.table_div {
+  text-align: center;
+}
+/*This made it centered*/
+
+/*table.center {*/
+/*    float:right;*/
+
+/*}*/
+
+/*.table_div {*/
+/*    margin-right: 30px;*/
+
+/*    margin-bottom: 100px;*/
+/*!*    margin right worked but margin bottom did not*!*/
+/*}*/
+
+/*This background pink colors the background of the div behind the table*/
+/*div.ticketTable {*/
+/*    width:100%;*/
+/*    background-color: pink;*/
+/*}*/
+
+/*table.table {*/
+/*    table-layout: fixed;*/
+/*    border-collapse:separate;*/
+/*    border:solid black 1px;*/
+/*    border-radius:10px;*/
+/*    -moz-border-radius:6px;*/
+/*    width:50%;*/
+
+/*}*/
+
+.table-bordered > tbody > tr > td {
+  border: 1px solid black;
+}
+td,
+th {
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+}
+
+th {
+  background-color: blue;
+  border-top: none;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+/*.table_div {*/
+/*    margin-right: 30px;*/
+
+/*    margin-bottom: 100px;*/
+/*    !*    margin right worked but margin bottom did not*!*/
+/*    display: block;*/
+
+/*}*/
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  width: 50%;
+}
+
+/*table.table {*/
+/*    width:100%;*/
+/*}*/
+
+/*displayTicket styles*/
+.tryit {
+  border-style: solid;
+}
+
+table.senior {
+  table-layout: fixed;
+  width: 80%;
+}
+
+/*advSearch styles*/
+
+.searchNav {
+  width: 50%;
+}
+
+div.searchChoices {
+  padding: 20px;
+  background-color: green;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+div.searchChoicesB {
+  padding: 20px;
+  background-color: purple;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+/*input boxes styling: making a box a box*/
+input#displayTicketInputBox,
+input#addCategoryInputBox {
+  display: block !important;
+
+  width: 90% !important;
+  padding: 0rem 0.75rem !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s;
+  box-shadow: none;
+  height: calc(2.25rem + 2px);
+}
+
+input#displayTicketInputBox:focus {
+  border-color: blue !important;
+}
+
+label {
+  color: #9e9e9e !important;
+}
+
+/*input.form-control:not([size]):not([multiple]){*/
+/*    height: calc(2.25rem + 2px);*/
+/*}*/
+
+/*display: block;*/
+/*width: 100%;*/
+/*padding: .375rem .75rem;*/
+/*font-size: 1rem;*/
+/*line-height: 1.5;*/
+/*color: #495057;*/
+/*background-color: #fff;*/
+/*background-clip: padding-box;*/
+/*border: 1px solid #ced4da;*/
+/*border-radius: .25rem;*/
+/*transition: border-color .15s*/
+
+.marg {
+  height: 20px;
+}
+
+.siteButton {
+  color: white;
+  background-color: #3f973f;
+  border: #3f973f;
+}
+
+.siteButton:hover {
+  /*background-color:#b7885e;*/
+  background-color:#93918e;
+  /*color:white;*/
+}
+.card-header {
+  background-color: lightgoldenrodyellow;
+}
+
+.profilecard {
+  border-color: black;
+}
+
+.descriptionBar {
+  display: inline-block;
+  color: white;
+  background-color: darkseagreen;
+  margin-top: 75px;
+  text-align: right;
+  z-index: 900;
+}
+
+.jumbotron {
+  background-color:darkseagreen;
+  /*background-image: url("../img/marble.jpg");*/
+  background-size: cover;
+  /*color:#fff;*/
+  color:#fff;
+}
+
+div.welcomeText {
+/*background-color: #554b43;*/
+background-color: #796d5c;
+/*background-color: #908575;*/
+padding:20px;
+}
+
+.siteButton:hover {
+  /*background-color:#b7885e;*/
+  background-color:#93918e;
+  color:#000;
+ 
+}
+
+/*div {
+    outline: 1px solid red;
+}*/

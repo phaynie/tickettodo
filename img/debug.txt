@@ -1,0 +1,283 @@
+
+ Error description ticketInsertQuery: INSERT command denied to user 'cleverbu_tickettodo'@'localhost' for table 'ticket'
+<br/>just checkingjust checkingjust checkingjust checkingjust checking
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 76' at line 2
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description: userListQuery: Table 'cleverbu_tickettodo.adminStatusRoles' doesn't exist
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description: userListQuery: Table 'cleverbu_tickettodo.adminStatusRoles' doesn't exist
+<br/>
+ Error description: userListQuery: Table 'cleverbu_tickettodo.adminStatusRoles' doesn't exist
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>17.9.2022
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>17.9.2022
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    17 Sat 6:21pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    17 Sat 6:21pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    17 Sat 6:29pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    17 Sat 6:29pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    17 Sat 6:29pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    17 Sat 6:29pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    17 Sat 6:30pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    17 Sat 6:30pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 1:55pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 1:55pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 3:47pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 3:47pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 3:50pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 3:50pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 6:24pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 6:24pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 6:25pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 6:25pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 6:27pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 6:27pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 6:27pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 6:41pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 6:41pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 6:41pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:09pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 7:09pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 7:09pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 7:09pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:09pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:13pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    19 Mon 7:13pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    19 Mon 7:13pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 7:13pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:13pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:14pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 7:14pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:14pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:24pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 7:24pmDELETE 
+              FROM comment AS com
+                WHERE com.id IN 
+                (
+                SELECT x.id FROM
+                (
+                  SELECT c.id
+                  FROM project AS p
+                  INNER JOIN ticket AS t
+                  ON p.id = t.project_ID
+                  INNER JOIN comment AS c
+                  ON t.id = c.comment_ticket_ID
+                  WHERE p.id = 79
+                    ) AS x
+              )
+    19 Mon 7:24pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:24pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:24pm
+ Error description query deleteCommentQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS com
+                WHERE com.id IN 
+                (
+                SEL' at line 2
+<br/>
+    19 Mon 7:24pmDELETE 
+              FROM comment AS com
+                WHERE com.id IN 
+                (
+                SELECT x.id FROM
+                (
+                  SELECT c.id
+                  FROM project AS p
+                  INNER JOIN ticket AS t
+                  ON p.id = t.project_ID
+                  INNER JOIN comment AS c
+                  ON t.id = c.comment_ticket_ID
+                  WHERE p.id = 79
+                    ) AS x
+              )
+    19 Mon 7:24pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:24pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:41pm
+ Error description: deleteTicketQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS tic 
+              WHERE tic.id IN ( 
+                SELECT x.id FROM ( 
+' at line 2
+<br/>
+    19 Mon 7:41pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:46pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:48pm
+ Error description query deleteProjectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS p 
+              WHERE p.id = 79' at line 2
+<br/>
+    19 Mon 7:48pmDELETE 
+              FROM project AS p 
+              WHERE p.id = 79 
