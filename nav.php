@@ -48,6 +48,10 @@ if ($adminTypeQueryResult) {
         $adminStatus = $row[1];
 
     }
+   // if($currentUserName == "" || $projectID == ""){
+   //     header('Location: index.php');
+   // exit;
+   // }
 
     if($adminStatus == 'MAIN ADMIN' || $adminStatus == 'ADMIN') {
         $adminTab = "
@@ -194,7 +198,7 @@ No qualifying if. We will always see the nav bar if nav.php is included on the p
             </li>
             <?php echo $adminTab ?>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="howto.php">How to</a>

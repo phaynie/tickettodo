@@ -1,6 +1,6 @@
 <?php
-include 'config.php';
 
+include 'config.php';
 error_reporting(E_ERROR | E_PARSE); // disabling all warnings because interference with nav.
 
 // error_reporting (E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
@@ -9,7 +9,7 @@ error_reporting(E_ERROR | E_PARSE); // disabling all warnings because interferen
 
 
 // CREATE SOME DEBUG CODE TO HELP YOU OUT
-$debug = false;
+$debug = true;
 if($debug !== true) {
     error_reporting(E_ERROR | E_PARSE); // only show most serious errors, like for production.
 }
@@ -18,17 +18,17 @@ $debug_string = "";
 /*start session*/
 session_start();
 
-// If the user is not logged in redirect to the login page...
-//if (!isset($_SESSION['loggedin'])) {
-//    header('Location: index.php');
-//    exit;
+// If the user is not logged in and not on index.php, redirect to the login page...
+//if (!isset($_SESSION['loggedin'])&&(!$pageNameIndex)) {
+ // header('Location: index.php');
+ // exit;
 //}
 
 //Establish variables to create connection to the db
 $hn = 'localhost';  //server name
 $db = 'cleverbu_tickettodo';
 $un = 'cleverbu_tickettodo';       //user name
-/*password coming from config.php */
+/*password comes from config.php*/
 
 // CREATE DB CONNECTION
 $conn = new mysqli($hn, $un, $pw, $db);

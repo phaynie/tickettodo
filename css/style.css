@@ -175,14 +175,16 @@ body {
     padding-right: 50px;
 }
 
-.projIntro {
-    padding:80px;
+/*.projIntro {
+    padding:20px 80px;
     margin-right:20px;
-}
+}*/
 
 .sample {
-    padding-left: 30%;
+    padding-left: 10%;
     padding-right: 30%px;
+    padding-top:5%;
+   
 }
 
 .bummer {
@@ -208,6 +210,12 @@ body {
   .main {
     width: 100%;
   }
+  .projIntro {
+    width:100%;
+}
+div.welcomeText {
+    padding-top:-30px;
+}
 
 }
 
@@ -216,6 +224,12 @@ body {
   .main {
     width: 90%;
   }
+  .projIntro {
+    width:100%;
+}
+div.welcomeText {
+    padding-top:-30px;
+}
   
   
 }
@@ -225,6 +239,12 @@ body {
   .main {
     width: 75%;
   }
+  .projIntro {
+    padding:20px 80px;
+    margin-right:20px;
+}
+  
+ 
   
 }
 
@@ -233,6 +253,10 @@ body {
   .main {
     width: 65%;
   }
+  .projIntro {
+    padding:20px 80px;
+    margin-right:20px;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -474,6 +498,6 @@ padding:20px;
  
 }
 
-/*div {
+div {
     outline: 1px solid red;
-}*/
+}

@@ -395,11 +395,8 @@ When  user has clicked on a project name in the dropdown on the nav */
                                 
                                 <?php echo $userListItem; ?></br></br>
         
-                                <form action="#" method="post">
-                                    <input type='btn' class='btn siteButton' value='Edit Project'>
-                                    <input type='hidden'name='edit' value='true'>
-                                    <input type='hidden' name='projectID' value='$projectID'>                          
-                                </form>
+                                
+                                <p>Use the Nav bar above to choose an option from here.</p>
         
                             
         

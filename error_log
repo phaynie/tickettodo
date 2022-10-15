@@ -1708,3 +1708,7 @@ Stack trace:
 [19-Sep-2022 19:09:48 America/Chicago] PHP Warning:  Undefined variable $getUserInfoValidates in /home5/cleverbu/public_html/tickettodo.cleverbucket.com/admin.php on line 1302
 [19-Sep-2022 19:09:48 America/Chicago] PHP Warning:  Undefined variable $getUserInfoValidates in /home5/cleverbu/public_html/tickettodo.cleverbucket.com/admin.php on line 1348
 [19-Sep-2022 19:09:48 America/Chicago] PHP Warning:  Undefined array key "activeProject" in /home5/cleverbu/public_html/tickettodo.cleverbucket.com/boilerPlate.php on line 91
+[08-Oct-2022 17:34:21 America/Chicago] PHP Parse error:  Unmatched '}' in /home5/cleverbu/public_html/stagingTicket.cleverbucket.com/boilerPlate.php on line 25
+[08-Oct-2022 17:34:21 America/Chicago] PHP Parse error:  Unmatched '}' in /home5/cleverbu/public_html/stagingTicket.cleverbucket.com/boilerPlate.php on line 25
+[08-Oct-2022 17:43:11 America/Chicago] PHP Parse error:  syntax error, unexpected token "||" in /home5/cleverbu/public_html/stagingTicket.cleverbucket.com/boilerPlate.php on line 22
+[08-Oct-2022 19:38:40 America/Chicago] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in /home5/cleverbu/public_html/stagingTicket.cleverbucket.com/about.php on line 12
