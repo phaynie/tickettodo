@@ -11,7 +11,7 @@ if($debug) {
 <body>
 <div class="jumbotron">
     <div class="welcomeText">
-        <h1 class="display-4">Welcome, <? echo $_SESSION['name']?>!</h1>
+        <h1 class="display-4" style="display:inline;">Welcome, <h3 style="display:inline;" ><? echo $_SESSION['name']?>!</h3></h1>
         <p class="lead">Here's the place to document your project progress!</p>
         <p>Everything you need is on the nav bar above.  </p>
         <p>Choose a project and off we go!</p>

@@ -249,7 +249,7 @@ No qualifying if. We will always see the nav bar if nav.php is included on the p
 </nav>
 <div class=" descriptionBar fixed-top container-fluid">
     <div class="row justify-content-end">
-        <div class="col-sm-auto">
+        <div class="col-xs-auto">
             <?php echo "Project: " . $activeProject   ?>
          </div>
          <div class="col-sm-auto">

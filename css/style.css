@@ -216,6 +216,9 @@ body {
 div.welcomeText {
     padding-top:-30px;
 }
+div.descriptionBar {
+    margin-top:40px;
+}
 
 }
 
@@ -230,7 +233,10 @@ div.welcomeText {
 div.welcomeText {
     padding-top:-30px;
 }
-  
+ 
+ div.descriptionBar {
+    margin-top:50px;
+} 
   
 }
 
@@ -242,6 +248,9 @@ div.welcomeText {
   .projIntro {
     padding:20px 80px;
     margin-right:20px;
+}
+div.descriptionBar {
+    margin-top:70px;
 }
   
  
@@ -264,6 +273,9 @@ div.welcomeText {
   .main {
     width: 50%;
   }
+  div.descriptionBar {
+    margin-top:70px;
+}
 }
 
 /*TABLE STYLES*/
@@ -471,7 +483,7 @@ label {
   display: inline-block;
   color: white;
   background-color: darkseagreen;
-  margin-top: 75px;
+  margin-top: 70px;
   text-align: right;
   z-index: 900;
 }
@@ -498,6 +510,6 @@ padding:20px;
  
 }
 
-div {
+/*div {
     outline: 1px solid red;
-}
+}*/

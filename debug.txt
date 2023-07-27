@@ -281,3 +281,57 @@
     19 Mon 7:48pmDELETE 
               FROM project AS p 
               WHERE p.id = 79 
+    20 Sun 4:22pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    20 Sun 4:22pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    08 Sun 9:40am
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    08 Sun 9:40am
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    18 Wed 12:41pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    18 Wed 12:41pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:44pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:44pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:45pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:45pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:47pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:47pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:48pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:48pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:49pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:49pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>
+    04 Sat 5:51pm
+ Error description: possibleProjectNames You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+<br/>
+    04 Sat 5:51pm
+ Error description: projectQuery: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY project_name ASC' at line 6
+<br/>

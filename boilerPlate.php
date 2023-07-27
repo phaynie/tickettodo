@@ -27,7 +27,7 @@ session_start();
 //Establish variables to create connection to the db
 $hn = 'localhost';  //server name
 $db = 'cleverbu_tickettodo';
-$un = 'cleverbu_tickettodo';       //user name
+$un = 'cleverbu_dbuser';       //user name
 /*password comes from config.php*/
 
 // CREATE DB CONNECTION
